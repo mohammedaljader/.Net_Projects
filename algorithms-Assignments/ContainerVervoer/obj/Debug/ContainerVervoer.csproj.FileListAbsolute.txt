@@ -1,0 +1,11 @@
+D:\GitProjects\ContainerVervoer\ContainerVervoer\obj\Debug\ContainerVervoer.csprojAssemblyReference.cache
+D:\GitProjects\ContainerVervoer\ContainerVervoer\obj\Debug\ContainerVervoer.Properties.Resources.resources
+D:\GitProjects\ContainerVervoer\ContainerVervoer\obj\Debug\ContainerVervoer.csproj.GenerateResource.cache
+D:\GitProjects\ContainerVervoer\ContainerVervoer\bin\Debug\ContainerVervoer.exe.config
+D:\GitProjects\ContainerVervoer\ContainerVervoer\bin\Debug\ContainerVervoer.exe
+D:\GitProjects\ContainerVervoer\ContainerVervoer\bin\Debug\ContainerVervoer.pdb
+D:\GitProjects\ContainerVervoer\ContainerVervoer\obj\Debug\ContainerVervoer.exe
+D:\GitProjects\ContainerVervoer\ContainerVervoer\obj\Debug\ContainerVervoer.pdb
+D:\GitProjects\ContainerVervoer\ContainerVervoer\obj\Debug\ContainerVervoer.Forms.LogisticsForm.resources
+D:\GitProjects\ContainerVervoer\ContainerVervoer\obj\Debug\ContainerVervoer.Forms.CargoShipForm.resources
+D:\GitProjects\ContainerVervoer\ContainerVervoer\obj\Debug\ContainerVervoer.Forms.CreationForm.resources
