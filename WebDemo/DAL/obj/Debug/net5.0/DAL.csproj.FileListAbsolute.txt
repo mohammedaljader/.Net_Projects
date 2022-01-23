@@ -1,0 +1,15 @@
+C:\Users\malja\OneDrive\Documenten\WebDemo\DAL\bin\Debug\net5.0\DAL.interfaces.dll
+C:\Users\malja\OneDrive\Documenten\WebDemo\DAL\obj\Debug\net5.0\DAL.csprojAssemblyReference.cache
+C:\Users\malja\OneDrive\Documenten\WebDemo\DAL\obj\Debug\net5.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\malja\OneDrive\Documenten\WebDemo\DAL\obj\Debug\net5.0\DAL.AssemblyInfoInputs.cache
+C:\Users\malja\OneDrive\Documenten\WebDemo\DAL\obj\Debug\net5.0\DAL.AssemblyInfo.cs
+C:\Users\malja\OneDrive\Documenten\WebDemo\DAL\bin\Debug\net5.0\DAL.deps.json
+C:\Users\malja\OneDrive\Documenten\WebDemo\DAL\bin\Debug\net5.0\DAL.dll
+C:\Users\malja\OneDrive\Documenten\WebDemo\DAL\bin\Debug\net5.0\ref\DAL.dll
+C:\Users\malja\OneDrive\Documenten\WebDemo\DAL\bin\Debug\net5.0\DAL.pdb
+C:\Users\malja\OneDrive\Documenten\WebDemo\DAL\bin\Debug\net5.0\DAL.interfaces.pdb
+C:\Users\malja\OneDrive\Documenten\WebDemo\DAL\obj\Debug\net5.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\malja\OneDrive\Documenten\WebDemo\DAL\obj\Debug\net5.0\DAL.csproj.CopyComplete
+C:\Users\malja\OneDrive\Documenten\WebDemo\DAL\obj\Debug\net5.0\DAL.dll
+C:\Users\malja\OneDrive\Documenten\WebDemo\DAL\obj\Debug\net5.0\ref\DAL.dll
+C:\Users\malja\OneDrive\Documenten\WebDemo\DAL\obj\Debug\net5.0\DAL.pdb

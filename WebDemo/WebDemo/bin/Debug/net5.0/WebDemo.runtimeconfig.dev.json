@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\malja\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\malja\\.nuget\\packages"
+    ]
+  }
+}

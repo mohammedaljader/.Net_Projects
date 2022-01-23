@@ -1,0 +1,366 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\malja\\OneDrive\\Documenten\\WebDemo\\Logic.Factory\\Logic.Factory.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\malja\\OneDrive\\Documenten\\WebDemo\\DAL.Factory\\DAL.Factory.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\malja\\OneDrive\\Documenten\\WebDemo\\DAL.Factory\\DAL.Factory.csproj",
+        "projectName": "DAL.Factory",
+        "projectPath": "C:\\Users\\malja\\OneDrive\\Documenten\\WebDemo\\DAL.Factory\\DAL.Factory.csproj",
+        "packagesPath": "C:\\Users\\malja\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\malja\\OneDrive\\Documenten\\WebDemo\\DAL.Factory\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\malja\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\malja\\OneDrive\\Documenten\\WebDemo\\DAL.interface\\DAL.interfaces.csproj": {
+                "projectPath": "C:\\Users\\malja\\OneDrive\\Documenten\\WebDemo\\DAL.interface\\DAL.interfaces.csproj"
+              },
+              "C:\\Users\\malja\\OneDrive\\Documenten\\WebDemo\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\malja\\OneDrive\\Documenten\\WebDemo\\DAL\\DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\malja\\OneDrive\\Documenten\\WebDemo\\DAL.interface\\DAL.interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\malja\\OneDrive\\Documenten\\WebDemo\\DAL.interface\\DAL.interfaces.csproj",
+        "projectName": "DAL.interfaces",
+        "projectPath": "C:\\Users\\malja\\OneDrive\\Documenten\\WebDemo\\DAL.interface\\DAL.interfaces.csproj",
+        "packagesPath": "C:\\Users\\malja\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\malja\\OneDrive\\Documenten\\WebDemo\\DAL.interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\malja\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\malja\\OneDrive\\Documenten\\WebDemo\\DAL\\DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\malja\\OneDrive\\Documenten\\WebDemo\\DAL\\DAL.csproj",
+        "projectName": "DAL",
+        "projectPath": "C:\\Users\\malja\\OneDrive\\Documenten\\WebDemo\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\malja\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\malja\\OneDrive\\Documenten\\WebDemo\\DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\malja\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\malja\\OneDrive\\Documenten\\WebDemo\\DAL.interface\\DAL.interfaces.csproj": {
+                "projectPath": "C:\\Users\\malja\\OneDrive\\Documenten\\WebDemo\\DAL.interface\\DAL.interfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.25, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\malja\\OneDrive\\Documenten\\WebDemo\\Logic.Factory\\Logic.Factory.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\malja\\OneDrive\\Documenten\\WebDemo\\Logic.Factory\\Logic.Factory.csproj",
+        "projectName": "Logic.Factory",
+        "projectPath": "C:\\Users\\malja\\OneDrive\\Documenten\\WebDemo\\Logic.Factory\\Logic.Factory.csproj",
+        "packagesPath": "C:\\Users\\malja\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\malja\\OneDrive\\Documenten\\WebDemo\\Logic.Factory\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\malja\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\malja\\OneDrive\\Documenten\\WebDemo\\Logic.interface\\Logic.interfaces.csproj": {
+                "projectPath": "C:\\Users\\malja\\OneDrive\\Documenten\\WebDemo\\Logic.interface\\Logic.interfaces.csproj"
+              },
+              "C:\\Users\\malja\\OneDrive\\Documenten\\WebDemo\\Logic\\Logic.csproj": {
+                "projectPath": "C:\\Users\\malja\\OneDrive\\Documenten\\WebDemo\\Logic\\Logic.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\malja\\OneDrive\\Documenten\\WebDemo\\Logic.interface\\Logic.interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\malja\\OneDrive\\Documenten\\WebDemo\\Logic.interface\\Logic.interfaces.csproj",
+        "projectName": "Logic.interfaces",
+        "projectPath": "C:\\Users\\malja\\OneDrive\\Documenten\\WebDemo\\Logic.interface\\Logic.interfaces.csproj",
+        "packagesPath": "C:\\Users\\malja\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\malja\\OneDrive\\Documenten\\WebDemo\\Logic.interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\malja\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\malja\\OneDrive\\Documenten\\WebDemo\\Logic\\Logic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\malja\\OneDrive\\Documenten\\WebDemo\\Logic\\Logic.csproj",
+        "projectName": "Logic",
+        "projectPath": "C:\\Users\\malja\\OneDrive\\Documenten\\WebDemo\\Logic\\Logic.csproj",
+        "packagesPath": "C:\\Users\\malja\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\malja\\OneDrive\\Documenten\\WebDemo\\Logic\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\malja\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\malja\\OneDrive\\Documenten\\WebDemo\\DAL.Factory\\DAL.Factory.csproj": {
+                "projectPath": "C:\\Users\\malja\\OneDrive\\Documenten\\WebDemo\\DAL.Factory\\DAL.Factory.csproj"
+              },
+              "C:\\Users\\malja\\OneDrive\\Documenten\\WebDemo\\DAL.interface\\DAL.interfaces.csproj": {
+                "projectPath": "C:\\Users\\malja\\OneDrive\\Documenten\\WebDemo\\DAL.interface\\DAL.interfaces.csproj"
+              },
+              "C:\\Users\\malja\\OneDrive\\Documenten\\WebDemo\\Logic.interface\\Logic.interfaces.csproj": {
+                "projectPath": "C:\\Users\\malja\\OneDrive\\Documenten\\WebDemo\\Logic.interface\\Logic.interfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

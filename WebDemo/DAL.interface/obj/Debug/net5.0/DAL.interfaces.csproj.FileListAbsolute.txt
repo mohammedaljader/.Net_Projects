@@ -1,0 +1,11 @@
+C:\Users\malja\OneDrive\Documenten\WebDemo\DAL.interface\bin\Debug\net5.0\DAL.interfaces.deps.json
+C:\Users\malja\OneDrive\Documenten\WebDemo\DAL.interface\bin\Debug\net5.0\DAL.interfaces.dll
+C:\Users\malja\OneDrive\Documenten\WebDemo\DAL.interface\bin\Debug\net5.0\ref\DAL.interfaces.dll
+C:\Users\malja\OneDrive\Documenten\WebDemo\DAL.interface\bin\Debug\net5.0\DAL.interfaces.pdb
+C:\Users\malja\OneDrive\Documenten\WebDemo\DAL.interface\obj\Debug\net5.0\DAL.interfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\malja\OneDrive\Documenten\WebDemo\DAL.interface\obj\Debug\net5.0\DAL.interfaces.AssemblyInfoInputs.cache
+C:\Users\malja\OneDrive\Documenten\WebDemo\DAL.interface\obj\Debug\net5.0\DAL.interfaces.AssemblyInfo.cs
+C:\Users\malja\OneDrive\Documenten\WebDemo\DAL.interface\obj\Debug\net5.0\DAL.interfaces.csproj.CoreCompileInputs.cache
+C:\Users\malja\OneDrive\Documenten\WebDemo\DAL.interface\obj\Debug\net5.0\DAL.interfaces.dll
+C:\Users\malja\OneDrive\Documenten\WebDemo\DAL.interface\obj\Debug\net5.0\ref\DAL.interfaces.dll
+C:\Users\malja\OneDrive\Documenten\WebDemo\DAL.interface\obj\Debug\net5.0\DAL.interfaces.pdb

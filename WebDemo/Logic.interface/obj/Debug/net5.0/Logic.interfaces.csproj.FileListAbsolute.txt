@@ -1,0 +1,12 @@
+C:\Users\malja\OneDrive\Documenten\WebDemo\Logic.interface\bin\Debug\net5.0\Logic.interfaces.deps.json
+C:\Users\malja\OneDrive\Documenten\WebDemo\Logic.interface\bin\Debug\net5.0\Logic.interfaces.dll
+C:\Users\malja\OneDrive\Documenten\WebDemo\Logic.interface\bin\Debug\net5.0\ref\Logic.interfaces.dll
+C:\Users\malja\OneDrive\Documenten\WebDemo\Logic.interface\bin\Debug\net5.0\Logic.interfaces.pdb
+C:\Users\malja\OneDrive\Documenten\WebDemo\Logic.interface\obj\Debug\net5.0\Logic.interfaces.csprojAssemblyReference.cache
+C:\Users\malja\OneDrive\Documenten\WebDemo\Logic.interface\obj\Debug\net5.0\Logic.interfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\malja\OneDrive\Documenten\WebDemo\Logic.interface\obj\Debug\net5.0\Logic.interfaces.AssemblyInfoInputs.cache
+C:\Users\malja\OneDrive\Documenten\WebDemo\Logic.interface\obj\Debug\net5.0\Logic.interfaces.AssemblyInfo.cs
+C:\Users\malja\OneDrive\Documenten\WebDemo\Logic.interface\obj\Debug\net5.0\Logic.interfaces.csproj.CoreCompileInputs.cache
+C:\Users\malja\OneDrive\Documenten\WebDemo\Logic.interface\obj\Debug\net5.0\Logic.interfaces.dll
+C:\Users\malja\OneDrive\Documenten\WebDemo\Logic.interface\obj\Debug\net5.0\ref\Logic.interfaces.dll
+C:\Users\malja\OneDrive\Documenten\WebDemo\Logic.interface\obj\Debug\net5.0\Logic.interfaces.pdb

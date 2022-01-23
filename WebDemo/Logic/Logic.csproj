@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DAL.Factory\DAL.Factory.csproj" />
+    <ProjectReference Include="..\DAL.interface\DAL.interfaces.csproj" />
+    <ProjectReference Include="..\Logic.interface\Logic.interfaces.csproj" />
+  </ItemGroup>
+
+</Project>
