@@ -1,0 +1,363 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+.navbar-nav {
+    display: block;
+}
+
+.nav-floatleft {
+    float: left;
+}
+
+.nav-floatright {
+    float: right;
+}
+
+.product {
+    border: 1px solid #dddddd;
+    height: 321px;
+}
+
+    .product > img {
+        max-width: 230px;
+    }
+
+.product-rating {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.product-title {
+    font-size: 20px;
+}
+
+.product-desc {
+    font-size: 14px;
+}
+
+.product-price {
+    font-size: 22px;
+}
+
+.product-stock {
+    color: #74DF00;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.product-info {
+    margin-top: 50px;
+}
+
+.masthead {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 95vh;
+    min-height: 500px;
+    background-image: url('http://www.bungeefun.nl/wp-content/uploads/2017/09/Abstract-Backgrounds-Website-Background-Blue-Wallpaper-1920x1080.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 3%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+a {
+    color: #64aded;
+}
+
+    a:hover,
+    a:focus {
+        color: #6494ed;
+    }
+
+h1 {
+    font-size: 60px;
+    font-weight: 300;
+    letter-spacing: -1px;
+    margin-bottom: 1.5rem;
+}
+
+h2 {
+    font-size: 45px;
+    font-weight: 300;
+    letter-spacing: -1px;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    color: #475ad6;
+    font-size: 33px;
+    font-weight: 500;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #475ad6;
+}
+
+h5 {
+    font-size: 28px;
+    font-weight: 300;
+    color: #475ad6;
+    margin-bottom: 0.7rem;
+}
+
+p {
+    color: #909195;
+}
+
+    p.lead {
+        color: #8cade3;
+        margin-bottom: 2rem;
+    }
+
+.text-primary {
+    color: #8cade3 !important;
+}
+
+.light-font {
+    font-weight: 300;
+}
+
+.light-bg {
+    background-color: #f6f8fb;
+}
+
+.section {
+    padding: 80px 0;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+    .section-title small {
+        color: #3d82d1;
+    }
+
+@media (max-width:767px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+}
+
+.mainBtn {
+    display: inline-block;
+    padding: 0.3em 1.2em;
+    margin: 0 0.1em 0.1em 0;
+    border: 0.16em solid rgba(255,255,255,0);
+    border-radius: 2em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 300;
+    background-color: #475ad6;
+    color: #FFFFFF;
+    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+    text-align: center;
+    transition: all 0.2s;
+}
+
+    .mainBtn:hover {
+        border-color: rgba(255,255,255,1);
+        background-color: #4095c6;
+    }
+
+@media all and (max-width:30em) {
+.mainBtn {
+    display: block;
+    margin: 0.2em auto;
+  }
+}
+
+.product-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    position: relative;
+    float: left;
+    margin-left: 7px;
+    margin-right: 7px;
+    margin-top: 10px;
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+    max-height: 250px;
+}
+
+.price {
+    color: grey;
+    font-size: 22px;
+}
+
+.product-card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    width: 100%;
+    font-size: 18px;
+    margin-top: -2px;
+    margin-bottom: -25px;
+}
+
+    .product-card button:hover {
+        opacity: 0.7;
+    }
+
+.checked {
+    color: orange;
+}
+
+.red {
+    color: red;
+}
+
+.invoice-box {
+    max-width: 800px;
+    margin: auto;
+    padding: 30px;
+    border: 1px solid #eee;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .15);
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+    color: #555;
+}
+
+    .invoice-box table {
+        width: 100%;
+        line-height: inherit;
+        text-align: left;
+    }
+
+        .invoice-box table td {
+            padding: 5px;
+            vertical-align: top;
+        }
+
+        .invoice-box table tr td:nth-child(2) {
+            text-align: right;
+        }
+
+        .invoice-box table tr.top table td {
+            padding-bottom: 20px;
+        }
+
+            .invoice-box table tr.top table td.title {
+                font-size: 45px;
+                line-height: 45px;
+                color: #333;
+            }
+
+        .invoice-box table tr.information table td {
+            padding-bottom: 40px;
+        }
+
+        .invoice-box table tr.heading td {
+            background: #eee;
+            border-bottom: 1px solid #ddd;
+            font-weight: bold;
+        }
+
+        .invoice-box table tr.details td {
+            padding-bottom: 20px;
+        }
+
+        .invoice-box table tr.item td {
+            border-bottom: 1px solid #eee;
+        }
+
+        .invoice-box table tr.item.last td {
+            border-bottom: none;
+        }
+
+        .invoice-box table tr.total td:nth-child(2) {
+            border-top: 2px solid #eee;
+            font-weight: bold;
+        }
+
+@media only screen and (max-width: 600px) {
+    .invoice-box table tr.top table td {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    .invoice-box table tr.information table td {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+}
+
+

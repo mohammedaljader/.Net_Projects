@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<header class="masthead">
+  <div class="container h-100">
+    <div class="row h-100 align-items-center">
+        <div class="col-12 text-center">
+            <h1>Start shopping now!</h1>
+            <form asp-action="Index">
+                <button type="submit" method="post" class="mainBtn" asp-controller="Shop"
+                        asp-action="Index">
+                    ShopOnline
+                </button>
+            </form>
+        </div>
+    </div>
+  </div>
+</header>

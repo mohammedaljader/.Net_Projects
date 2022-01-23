@@ -1,0 +1,49 @@
+﻿@using Models.DataModels
+@{
+    ViewData["Title"] = "Shop";
+}
+@foreach (Product product in ViewBag.Products)
+{
+    <div class="container">
+        <div class="product-card">
+            <a asp-controller="Product" asp-action="Info" asp-route-id="@product.ID" method="post">
+                <img src="@product.ImageURL" class="product-image" alt="@product.Name">
+            </a>
+            <h2>@product.Name</h2>
+            @for (int i = 0; i < 5; i++)
+            {
+                if (product.reviews != null && product.reviews.Any())
+                {
+                    if (i < product.reviews.Average(review => review.Stars))
+                    {
+                        <span class="fa fa-star checked"></span>
+                    }
+                    else
+                    {
+                        <span class="fa fa-star"></span>
+                    }
+                }
+                else
+                {
+                    <span class="fa fa-star"></span>
+                }
+            }
+            <p class="price">€@product.Price</p>
+            <p>@product.Description</p>
+            <form asp-action="AddToCart">
+                <button type="submit" method="post" class="btn btn-danger" asp-controller="Cart"
+                        asp-action="AddToCart" asp-route-id="@product.ID">
+                    Add to Cart <i class="fa fa-cart-plus"></i>
+                </button>
+            </form>
+            <br />
+            <form asp-action="AddToWishes">
+                <button type="submit" method="post" class="btn btn-danger" asp-controller="Wish"
+                        asp-action="AddToWishes" asp-route-id="@product.ID">
+                    Add to WishList <i class="fa fa-heart red"></i>
+                </button>
+            </form>
+        </div>
+    </div>
+}
+

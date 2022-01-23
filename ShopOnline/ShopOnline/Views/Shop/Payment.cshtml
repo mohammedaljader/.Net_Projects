@@ -1,0 +1,91 @@
+﻿@using Models.DataModels
+
+@{
+    ViewData["Title"] = "Payment";
+}
+<h1>Payment Complete</h1>
+<div class="invoice-box">
+    <table cellpadding="0" cellspacing="0">
+        <tr class="top">
+            <td colspan="2">
+                <table>
+                    <tr>
+                        <td class="title">ShopOnline</td>
+                        <td>
+                            Created: @DateTime.Now.ToString("dddd, dd MMMM yyyy") <br>
+                            Due:  @DateTime.Now.AddMonths(1).Date.ToString("dddd, dd MMMM yyyy")
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr class="information">
+            <td colspan="2">
+                <table>
+                    <tr>
+                        <td>
+                            ShopOnline<br>
+                            Achtseweg Zuid 153<br>
+                            5651 GW, Eindhoven
+                        </td>
+
+                        <td>
+                            @ViewBag.Billing.FirstName @ViewBag.Billing.LastName<br>
+                            @ViewBag.Billing.PhoneNumber<br>
+                            @ViewBag.Billing.Address<br>
+                            @ViewBag.Billing.City
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <tr class="heading">
+            <td>
+                Payment Method
+            </td>
+
+            <td>
+                Status
+            </td>
+        </tr>
+
+        <tr class="details">
+            <td>
+                Ideal
+            </td>
+
+            <td>
+                Complete
+            </td>
+        </tr>
+
+        <tr class="heading">
+            <td>
+                Item
+            </td>
+
+            <td>
+                Price
+            </td>
+        </tr>
+        @foreach (Product product in ViewBag.Products)
+        {
+         <tr class="item">
+            <td>
+                @product.Name
+            </td>
+            <td>
+                €@product.Price
+            </td>
+        </tr>
+        }
+        <tr class="total">
+            <td></td>
+
+            <td>
+                Total: €@ViewBag.TotalPrice
+            </td>
+        </tr>
+    </table>
+</div>

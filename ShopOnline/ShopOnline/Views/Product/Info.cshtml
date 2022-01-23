@@ -1,0 +1,143 @@
+﻿@model ShopOnline.Models.ReviewViewModel
+@using Models.DataModels
+@using Microsoft.AspNetCore.Http;
+@{
+    ViewData["Title"] = "Product Information";
+    List<Review> reviews = ViewBag.Reviews;
+}
+<h2>Product Information</h2>
+<hr />
+<div class="container">
+    <div class="col-md-12">
+        <div class="container service1-items col-sm-2 col-md-2 pull-left">
+            <center>
+                <img src="@ViewBag.Product.ImageURL" class="product-image" alt="@ViewBag.Product.Name">
+            </center>
+        </div>
+        <div class="product-title">@ViewBag.Product.Name</div>
+        <div class="product-desc">@ViewBag.Product.Description</div>
+        <div class="product-rating">
+            @for (int i = 0; i < 5; i++)
+            {
+                if (reviews.Any())
+                {
+                    if (i < reviews.Average(review => review.Stars))
+                    {
+                        <span class="fa fa-star checked"></span>
+                    }
+                    else
+                    {
+                        <span class="fa fa-star"></span>
+                    }
+                }
+                else
+                {
+                    <span class="fa fa-star"></span>
+                }
+            }
+            <div class="product-price">€@ViewBag.Product.Price</div>
+        </div>
+        <div class="btn-group cart">
+            <form asp-action="AddToCart">
+
+                <button type="submit" method="post" class="btn btn-success" asp-controller="Cart"
+                        asp-action="AddToCart" asp-route-id="@ViewBag.Product.ID">
+                    Add to Cart <i class="fa fa-cart-plus"></i>
+                </button>
+            </form>
+        </div>
+        <div class="btn-group wishlist">
+            <form asp-action="AddToWishes">
+                <button type="submit" method="post" class="btn btn-danger" asp-controller="Wish"
+                        asp-action="AddToWishes" asp-route-id="@ViewBag.Product.ID">
+                    Add to Wishlist <i class="fa fa-heart red"></i>
+                </button>
+            </form>
+        </div>
+    </div>
+</div>
+<hr />
+<h4>Reviews</h4>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                User
+            </th>
+            <th>
+                Review
+            </th>
+            <th>
+                Rating
+            </th>
+            @if (Context.Session.GetUser().IsAdmin)
+            {
+                <th>
+                    Action
+                </th>
+            }
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Review review in ViewBag.Reviews)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => review.User.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => review.Message)
+                </td>
+                <td>
+                    @for (int i = 0; i < 5; i++)
+                    {
+                        if (i < review.Stars)
+                        {
+                            <span class="fa fa-star checked"></span>
+                        }
+                        else
+                        {
+                            <span class="fa fa-star"></span>
+                        }
+                    }
+                </td>
+                @if (Context.Session.GetUser().IsAdmin)
+                {
+                    <th>
+                        <form asp-action="RemoveReview">
+                            <button type="submit" method="post" class="mainBtn" asp-controller="Review"
+                                    asp-action="RemoveReview" asp-route-id="@review.ID">
+                                Remove <i class="fa fa-trash"></i>
+                            </button>
+                        </form>
+                    </th>
+                }
+            </tr>
+        }
+    </tbody>
+</table>
+<hr />
+<h4>Leave Review</h4>
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="AddReview" asp-controller="Review">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Message" class="control-label"></label>
+                <input asp-for="Message" placeholder="Short Message" class="form-control" />
+                <span asp-validation-for="Message" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Stars" class="control-label"></label>
+                <input asp-for="Stars" placeholder="Amount of Stars out of 5" class="form-control" />
+                <span asp-validation-for="Stars" class="text-danger"></span>
+            </div>
+            <button type="submit" method="post" class="mainBtn" asp-controller="Review"
+                    asp-action="AddReview" asp-route-id="@ViewBag.Product.ID">
+                Add Review
+            </button>
+        </form>
+    </div>
+</div>
+<hr />
+

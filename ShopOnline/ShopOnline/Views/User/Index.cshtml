@@ -1,0 +1,122 @@
+﻿@model ShopOnline.Models.RegisterViewModel
+@using Models.DataModels
+@{
+    ViewData["Title"] = "Account";
+}
+<h2>Account</h2>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <section>
+            <form asp-action="UpdateUser" asp-controller="User" method="post">
+                <h4>Login and security</h4>
+                <div asp-validation-summary="All" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="Email"></label>
+                    <input asp-for="Email" placeholder="Email" class="form-control" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Name"></label>
+                    <input asp-for="Name" placeholder="Name" class="form-control" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Password"></label>
+                    <input asp-for="Password" placeholder="password" class="form-control" />
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="ConfirmPassword"></label>
+                    <input asp-for="ConfirmPassword" class="form-control" />
+                    <span asp-validation-for="ConfirmPassword" placeholder="confirms" class="text-danger"></span>
+                </div>
+                <button type="submit" class="mainBtn">Edit</button>
+            </form>
+        </section>
+    </div>
+</div>
+<hr />
+<h4>Wishes</h4>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Name
+            </th>
+            <th>
+                Descripion
+            </th>
+            <th>
+                Price
+            </th>
+            <th>
+                Action
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Product product in ViewBag.Wishes)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => product.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => product.Description)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => product.Price)
+                </td>
+                <td>
+                    <form asp-action="RemoveFromWishes">
+                        <button type="submit" method="post" class="mainBtn" asp-controller="Wish"
+                                asp-action="RemoveFromWishes" asp-route-id="@product.ID">
+                            Remove <i class="fa fa-trash"></i>
+                        </button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<hr />
+<h4>Orders</h4>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Invoice
+            </th>
+            <th>
+                Amount of Products
+            </th>
+            <th>
+                Date
+            </th>
+            <th>
+                Status
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Order order in ViewBag.Orders)
+        {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => order.ID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => order.Products.Count)
+            </td>
+            <td>
+                @order.Date.ToString("dd MMMM yyyy")
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => order.Status)
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>

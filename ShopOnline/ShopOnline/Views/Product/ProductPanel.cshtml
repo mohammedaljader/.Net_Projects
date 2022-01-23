@@ -1,0 +1,41 @@
+﻿@using Models.DataModels
+@{
+    ViewData["Title"] = "Product Panel";
+}
+<link rel="stylesheet" href="~/css/site.css" />
+
+<h4>Admin Panel</h4>
+<div>
+    <p>Wil je een nieuw product aanmaken?</p>
+    <form asp-action="AddProduct">
+        <button type="submit" class="mainBtn" asp-controller="Product"
+         asp-action="AddProduct">Add Product</button>
+    </form>
+</div>
+@foreach (Product product in ViewBag.Products)
+{
+    <div class="container">
+        <div class="product-card">
+            <img src="@product.ImageURL" class="product-image" alt="@product.Name">
+            <h2 id="@product.ID">@product.Name</h2>
+            <p class="price">€@product.Price</p>
+            <p>@product.Description</p>
+            <form asp-action="EditProduct">
+                <button type="submit" class="btn btn-danger" asp-controller="Product"
+                        asp-action="EditProduct" asp-route-id="@product.ID">
+                    Edit Product
+                </button>
+            </form>
+            <br />
+            <form asp-action="DeleteProduct">
+                <button type="submit" method="post" class="btn btn-danger" asp-controller="Product"
+                        asp-action="DeleteProduct" asp-route-id="@product.ID">
+                    Delete Product
+                </button>
+            </form>
+        </div>
+    </div>
+}
+
+
+
