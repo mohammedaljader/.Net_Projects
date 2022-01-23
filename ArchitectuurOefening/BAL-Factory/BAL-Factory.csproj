@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>BAL_Factory</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BAL-interfaces\BAL-interfaces.csproj" />
+    <ProjectReference Include="..\BAL\BAL.csproj" />
+  </ItemGroup>
+
+</Project>

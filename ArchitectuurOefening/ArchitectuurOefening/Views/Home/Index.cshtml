@@ -1,0 +1,27 @@
+﻿@using Microsoft.AspNetCore.Http;
+@{
+    ViewData["Title"] = "Home";
+}
+
+
+@if (!string.IsNullOrEmpty(Context.Session.GetString("Company_Address")))
+{
+    <div class="text-center">
+        <h1 class="display-4">Welcome @Context.Session.GetInt32("Company_Id")</h1>
+        <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    </div>
+}
+else if (!string.IsNullOrEmpty(Context.Session.GetString("Hobby")))
+{
+    <div class="text-center">
+        <h1 class="display-4">Welcome @Context.Session.GetInt32("Seeker_Id")</h1>
+        <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    </div>
+}
+else
+{
+    <div class="text-center">
+        <h1 class="display-4">Welcome Everybody</h1>
+        <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    </div>
+}
