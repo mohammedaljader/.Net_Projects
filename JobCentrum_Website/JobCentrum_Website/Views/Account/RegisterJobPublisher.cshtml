@@ -1,0 +1,83 @@
+﻿@model JobCentrum_Website.Models.CompanyAccountViewModel
+
+@{
+    ViewData["Title"] = "RegisterJobPublisher";
+}
+
+<div style="margin-left: 200px;">
+    <h1>Register_JobPublisher</h1>
+
+    @*<h4 style="color: #5bc0de; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif">Fill in all the fields!</h4>*@
+    <hr />
+    <p style="color: red;">@ViewBag.error</p>
+    <div class="row">
+        <div class="col-md-4">
+            <form asp-action="RegisterJobPublisher">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                @*<div class="form-group">
+                        <label asp-for="Id" class="control-label"></label>
+                        <input asp-for="Id" class="form-control" />
+                        <span asp-validation-for="Id" class="text-danger"></span>
+                    </div>*@
+                <div class="form-group">
+                    <label asp-for="Fullname" class="control-label"></label>
+                    <input asp-for="Fullname" class="form-control" />
+                    <span asp-validation-for="Fullname" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Username" class="control-label"></label>
+                    <input asp-for="Username" class="form-control" />
+                    <span asp-validation-for="Username" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Password" class="control-label"></label>
+                    <input asp-for="Password" class="form-control" />
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="ConfirmPassword" class="control-label"></label>
+                    <input asp-for="ConfirmPassword" class="form-control" />
+                    <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Email" class="control-label"></label>
+                    <input asp-for="Email" class="form-control" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Telephone" class="control-label"></label>
+                    <input asp-for="Telephone" class="form-control" />
+                    <span asp-validation-for="Telephone" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Address" class="control-label"></label>
+                    <textarea asp-for="Address" class="form-control"></textarea>
+                    <span asp-validation-for="Address" class="text-danger"></span>
+                </div>
+                @*<div class="form-group">
+                        <label asp-for="Company_Id" class="control-label"></label>
+                        <input asp-for="Company_Id" class="form-control" />
+                        <span asp-validation-for="Company_Id" class="text-danger"></span>
+                    </div>*@
+                <div class="form-group">
+                    <label asp-for="Company_Name" class="control-label"></label>
+                    <input asp-for="Company_Name" class="form-control" />
+                    <span asp-validation-for="Company_Name" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Company_Address" class="control-label"></label>
+                    <input asp-for="Company_Address" class="form-control" />
+                    <span asp-validation-for="Company_Address" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Register" class="btn btn-primary" />
+                    <input asp-controller="Home" asp-action="Index" type="submit" value="Home" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

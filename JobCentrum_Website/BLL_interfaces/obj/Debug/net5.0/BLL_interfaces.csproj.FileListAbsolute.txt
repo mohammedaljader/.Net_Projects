@@ -1,0 +1,12 @@
+C:\Users\malja\OneDrive\Documenten\S2.Software\Job-website fontysGit\JobCentrum_Website\BLL_interfaces\bin\Debug\net5.0\BLL_interfaces.deps.json
+C:\Users\malja\OneDrive\Documenten\S2.Software\Job-website fontysGit\JobCentrum_Website\BLL_interfaces\bin\Debug\net5.0\BLL_interfaces.dll
+C:\Users\malja\OneDrive\Documenten\S2.Software\Job-website fontysGit\JobCentrum_Website\BLL_interfaces\bin\Debug\net5.0\ref\BLL_interfaces.dll
+C:\Users\malja\OneDrive\Documenten\S2.Software\Job-website fontysGit\JobCentrum_Website\BLL_interfaces\bin\Debug\net5.0\BLL_interfaces.pdb
+C:\Users\malja\OneDrive\Documenten\S2.Software\Job-website fontysGit\JobCentrum_Website\BLL_interfaces\obj\Debug\net5.0\BLL_interfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\malja\OneDrive\Documenten\S2.Software\Job-website fontysGit\JobCentrum_Website\BLL_interfaces\obj\Debug\net5.0\BLL_interfaces.AssemblyInfoInputs.cache
+C:\Users\malja\OneDrive\Documenten\S2.Software\Job-website fontysGit\JobCentrum_Website\BLL_interfaces\obj\Debug\net5.0\BLL_interfaces.AssemblyInfo.cs
+C:\Users\malja\OneDrive\Documenten\S2.Software\Job-website fontysGit\JobCentrum_Website\BLL_interfaces\obj\Debug\net5.0\BLL_interfaces.csproj.CoreCompileInputs.cache
+C:\Users\malja\OneDrive\Documenten\S2.Software\Job-website fontysGit\JobCentrum_Website\BLL_interfaces\obj\Debug\net5.0\BLL_interfaces.dll
+C:\Users\malja\OneDrive\Documenten\S2.Software\Job-website fontysGit\JobCentrum_Website\BLL_interfaces\obj\Debug\net5.0\ref\BLL_interfaces.dll
+C:\Users\malja\OneDrive\Documenten\S2.Software\Job-website fontysGit\JobCentrum_Website\BLL_interfaces\obj\Debug\net5.0\BLL_interfaces.pdb
+C:\Users\malja\OneDrive\Documenten\S2.Software\Job-website fontysGit\JobCentrum_Website\BLL_interfaces\obj\Debug\net5.0\BLL_interfaces.csprojAssemblyReference.cache

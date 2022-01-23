@@ -1,0 +1,46 @@
+﻿@model IEnumerable<JobViewModel>;
+﻿@using Microsoft.AspNetCore.Http;
+@{
+    ViewData["Title"] = "Home";
+}
+
+<div class="container1" style="margin-left: 250px;">
+    @if (!string.IsNullOrEmpty(Context.Session.GetString("Company_Address")))
+    {
+        <h1 style="color: cadetblue; text-align: center; margin-bottom: 60px;">Welcome @Context.Session.GetString("Fullname")</h1>
+    }
+    else if (!string.IsNullOrEmpty(Context.Session.GetString("Hobby")))
+    {
+        <h1 style="color: cadetblue; text-align: center; margin-bottom: 60px;">Welcome @Context.Session.GetString("Fullname")</h1>
+    }
+    else
+    {
+        <h1 style="color: cadetblue; text-align: center; margin-bottom: 60px;">Welcome everyboy</h1>
+    }
+    <div class="row1">
+        @foreach (var subItem in Model)
+        {
+            <div class="col1">
+                <div class="imgBox1">
+                    <img src="~/images/@subItem.Job_image" />
+                </div>
+                <div class="content1" style="text-align:center;">
+                    <h2 class="title1" style="color: black">@Html.DisplayFor(modelItem => subItem.Job_name)</h2>
+                    @Html.ActionLink("More Info", "Details", new { id = subItem.Job_Id }, new { @class = "btn btn-info" })
+                </div>
+            </div>
+        }
+    </div>
+    <button class="btn1">Load more</button>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(".col1").slice(0, 3).show();
+    $(".btn1").on("click", function () {
+        $(".col1:hidden").slice(0, 3).slideDown();
+        if ($(".col1:hidden").length === 0) {
+            $(".btn1").fadeOut('slow');
+        }
+    });
+</script>

@@ -1,0 +1,25 @@
+C:\Users\malja\OneDrive\Documenten\S2.Software\Job-website fontysGit\JobCentrum_Website\BLL_Factory\bin\Debug\net5.0\BLL_Factory.deps.json
+C:\Users\malja\OneDrive\Documenten\S2.Software\Job-website fontysGit\JobCentrum_Website\BLL_Factory\bin\Debug\net5.0\BLL_Factory.dll
+C:\Users\malja\OneDrive\Documenten\S2.Software\Job-website fontysGit\JobCentrum_Website\BLL_Factory\bin\Debug\net5.0\ref\BLL_Factory.dll
+C:\Users\malja\OneDrive\Documenten\S2.Software\Job-website fontysGit\JobCentrum_Website\BLL_Factory\bin\Debug\net5.0\BLL_Factory.pdb
+C:\Users\malja\OneDrive\Documenten\S2.Software\Job-website fontysGit\JobCentrum_Website\BLL_Factory\obj\Debug\net5.0\BLL_Factory.csprojAssemblyReference.cache
+C:\Users\malja\OneDrive\Documenten\S2.Software\Job-website fontysGit\JobCentrum_Website\BLL_Factory\obj\Debug\net5.0\BLL_Factory.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\malja\OneDrive\Documenten\S2.Software\Job-website fontysGit\JobCentrum_Website\BLL_Factory\obj\Debug\net5.0\BLL_Factory.AssemblyInfoInputs.cache
+C:\Users\malja\OneDrive\Documenten\S2.Software\Job-website fontysGit\JobCentrum_Website\BLL_Factory\obj\Debug\net5.0\BLL_Factory.AssemblyInfo.cs
+C:\Users\malja\OneDrive\Documenten\S2.Software\Job-website fontysGit\JobCentrum_Website\BLL_Factory\obj\Debug\net5.0\BLL_Factory.csproj.CoreCompileInputs.cache
+C:\Users\malja\OneDrive\Documenten\S2.Software\Job-website fontysGit\JobCentrum_Website\BLL_Factory\obj\Debug\net5.0\BLL_Factory.dll
+C:\Users\malja\OneDrive\Documenten\S2.Software\Job-website fontysGit\JobCentrum_Website\BLL_Factory\obj\Debug\net5.0\ref\BLL_Factory.dll
+C:\Users\malja\OneDrive\Documenten\S2.Software\Job-website fontysGit\JobCentrum_Website\BLL_Factory\obj\Debug\net5.0\BLL_Factory.pdb
+C:\Users\malja\OneDrive\Documenten\S2.Software\Job-website fontysGit\JobCentrum_Website\BLL_Factory\bin\Debug\net5.0\BLL(Logica laag).dll
+C:\Users\malja\OneDrive\Documenten\S2.Software\Job-website fontysGit\JobCentrum_Website\BLL_Factory\bin\Debug\net5.0\BLL_interfaces.dll
+C:\Users\malja\OneDrive\Documenten\S2.Software\Job-website fontysGit\JobCentrum_Website\BLL_Factory\bin\Debug\net5.0\DAL.dll
+C:\Users\malja\OneDrive\Documenten\S2.Software\Job-website fontysGit\JobCentrum_Website\BLL_Factory\bin\Debug\net5.0\DAL_Factory.dll
+C:\Users\malja\OneDrive\Documenten\S2.Software\Job-website fontysGit\JobCentrum_Website\BLL_Factory\bin\Debug\net5.0\DAL_interfaces.dll
+C:\Users\malja\OneDrive\Documenten\S2.Software\Job-website fontysGit\JobCentrum_Website\BLL_Factory\bin\Debug\net5.0\BLL(Logica laag).pdb
+C:\Users\malja\OneDrive\Documenten\S2.Software\Job-website fontysGit\JobCentrum_Website\BLL_Factory\bin\Debug\net5.0\BLL_interfaces.pdb
+C:\Users\malja\OneDrive\Documenten\S2.Software\Job-website fontysGit\JobCentrum_Website\BLL_Factory\bin\Debug\net5.0\DAL.pdb
+C:\Users\malja\OneDrive\Documenten\S2.Software\Job-website fontysGit\JobCentrum_Website\BLL_Factory\bin\Debug\net5.0\DAL_Factory.pdb
+C:\Users\malja\OneDrive\Documenten\S2.Software\Job-website fontysGit\JobCentrum_Website\BLL_Factory\bin\Debug\net5.0\DAL_interfaces.pdb
+C:\Users\malja\OneDrive\Documenten\S2.Software\Job-website fontysGit\JobCentrum_Website\BLL_Factory\obj\Debug\net5.0\BLL_Factory.csproj.CopyComplete
+C:\Users\malja\OneDrive\Documenten\S2.Software\Job-website fontysGit\JobCentrum_Website\BLL_Factory\bin\Debug\net5.0\Exceptions.dll
+C:\Users\malja\OneDrive\Documenten\S2.Software\Job-website fontysGit\JobCentrum_Website\BLL_Factory\bin\Debug\net5.0\Exceptions.pdb

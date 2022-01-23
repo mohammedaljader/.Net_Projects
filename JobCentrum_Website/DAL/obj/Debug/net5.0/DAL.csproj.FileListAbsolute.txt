@@ -1,0 +1,17 @@
+C:\Users\malja\OneDrive\Documenten\S2.Software\Job-website fontysGit\JobCentrum_Website\DAL\bin\Debug\net5.0\DAL.deps.json
+C:\Users\malja\OneDrive\Documenten\S2.Software\Job-website fontysGit\JobCentrum_Website\DAL\bin\Debug\net5.0\DAL.dll
+C:\Users\malja\OneDrive\Documenten\S2.Software\Job-website fontysGit\JobCentrum_Website\DAL\bin\Debug\net5.0\ref\DAL.dll
+C:\Users\malja\OneDrive\Documenten\S2.Software\Job-website fontysGit\JobCentrum_Website\DAL\bin\Debug\net5.0\DAL.pdb
+C:\Users\malja\OneDrive\Documenten\S2.Software\Job-website fontysGit\JobCentrum_Website\DAL\obj\Debug\net5.0\DAL.csprojAssemblyReference.cache
+C:\Users\malja\OneDrive\Documenten\S2.Software\Job-website fontysGit\JobCentrum_Website\DAL\obj\Debug\net5.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\malja\OneDrive\Documenten\S2.Software\Job-website fontysGit\JobCentrum_Website\DAL\obj\Debug\net5.0\DAL.AssemblyInfoInputs.cache
+C:\Users\malja\OneDrive\Documenten\S2.Software\Job-website fontysGit\JobCentrum_Website\DAL\obj\Debug\net5.0\DAL.AssemblyInfo.cs
+C:\Users\malja\OneDrive\Documenten\S2.Software\Job-website fontysGit\JobCentrum_Website\DAL\obj\Debug\net5.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\malja\OneDrive\Documenten\S2.Software\Job-website fontysGit\JobCentrum_Website\DAL\obj\Debug\net5.0\DAL.dll
+C:\Users\malja\OneDrive\Documenten\S2.Software\Job-website fontysGit\JobCentrum_Website\DAL\obj\Debug\net5.0\ref\DAL.dll
+C:\Users\malja\OneDrive\Documenten\S2.Software\Job-website fontysGit\JobCentrum_Website\DAL\obj\Debug\net5.0\DAL.pdb
+C:\Users\malja\OneDrive\Documenten\S2.Software\Job-website fontysGit\JobCentrum_Website\DAL\bin\Debug\net5.0\DAL_interfaces.dll
+C:\Users\malja\OneDrive\Documenten\S2.Software\Job-website fontysGit\JobCentrum_Website\DAL\bin\Debug\net5.0\DAL_interfaces.pdb
+C:\Users\malja\OneDrive\Documenten\S2.Software\Job-website fontysGit\JobCentrum_Website\DAL\obj\Debug\net5.0\DAL.csproj.CopyComplete
+C:\Users\malja\OneDrive\Documenten\S2.Software\Job-website fontysGit\JobCentrum_Website\DAL\bin\Debug\net5.0\Exceptions.dll
+C:\Users\malja\OneDrive\Documenten\S2.Software\Job-website fontysGit\JobCentrum_Website\DAL\bin\Debug\net5.0\Exceptions.pdb

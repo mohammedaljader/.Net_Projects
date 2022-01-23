@@ -1,0 +1,64 @@
+﻿@model IEnumerable<JobCentrum_Website.Models.ApplicationViewModel>
+
+@{
+    ViewData["Title"] = "Applications";
+}
+
+<div style="margin-left: 200px;margin-bottom: 150px;">
+    <h1>Applications</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th hidden>
+                    @Html.DisplayNameFor(model => model.Job.Job_Id)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Job.Job_name)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Job.Job_description)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Job.Job_image)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Job.Job_location)
+                </th>
+                <th hidden>
+                    @Html.DisplayNameFor(model => model.Job.Categorie_ID)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td hidden>
+                        @Html.DisplayFor(modelItem => item.Job.Job_Id)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Job.Job_name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Job.Job_description)
+                    </td>
+                    <td>
+                        <img src="~/images/@Html.DisplayFor(modelItem => item.Job.Job_image)" class="img-thumbnail" style="width:48px; height:48px" />
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Job.Job_location)
+                    </td>
+                    <td hidden>
+                        @Html.DisplayFor(modelItem => item.Job.Categorie_ID)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Delete", "DeleteApply", new { id = item.Apply_Id }, new { @class = "btn btn-danger" })
+                        @Html.ActionLink("Details", "Details", new { id = item.Job.Job_Id }, new { @class = "btn btn-info" })
+                    </td >
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BLL(Logica laag)\BLL(Logica laag).csproj" />
+    <ProjectReference Include="..\BLL_interfaces\BLL_interfaces.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>BLL_Logica_laag_</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BLL_interfaces\BLL_interfaces.csproj" />
+    <ProjectReference Include="..\DAL_Factory\DAL_Factory.csproj" />
+    <ProjectReference Include="..\DAL_interfaces\DAL_interfaces.csproj" />
+  </ItemGroup>
+
+</Project>

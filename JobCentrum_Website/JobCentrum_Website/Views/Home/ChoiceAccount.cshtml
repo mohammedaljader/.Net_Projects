@@ -1,0 +1,49 @@
+﻿
+@{
+    ViewData["Title"] = "ChoiceAccount";
+}
+
+<div class="container1" style="margin-left: 270px">
+    <div class="container2"><label>Which Account do you want?</label></div>
+    <div class="container2">
+        <a asp-controller="Account" asp-action="RegisterJobSeeker" class="btn btn1">Job Seeker</a>
+        <a asp-controller="Account" asp-action="RegisterJobPublisher" class="btn btn1">Job Publisher</a>
+    </div>
+</div>
+<style>
+    .container1 {
+        height: 300px;
+    }
+
+    .container2 {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    label {
+        text-align: center;
+        color: #00CED1;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: large;
+    }
+
+    .btn {
+        border: 1px solid #00CED1;
+        background: none;
+        padding: 10px 20px;
+        font-size: 20px;
+        font-family: "montserrat";
+        cursor: pointer;
+        margin: 10px;
+        width: 200px;
+    }
+
+    .btn1, .btn2 {
+        color: #00CED1;
+    }
+
+        .btn1:hover, .btn2:hover {
+            color: #000;
+            background: #00CED1;
+        }
+</style>

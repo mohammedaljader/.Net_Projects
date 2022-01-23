@@ -1,0 +1,81 @@
+﻿@model IEnumerable<JobCentrum_Website.Models.JobViewModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div style="margin-left: 100px; min-height: 500px;">
+    <h1>Jobs List</h1>
+
+    <p>
+        <a asp-action="Create">Create New</a>
+    </p>
+    <table class="table" style="height:auto">
+        <thead>
+            <tr>
+                <th hidden>
+                    @Html.DisplayNameFor(model => model.Job_Id)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Job_name)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Job_description)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Job_image)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Job_location)
+                </th>
+                <th hidden>
+                    @Html.DisplayNameFor(model => model.Categorie_ID)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model.Count() != 0)
+            {
+
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td hidden>
+                            @Html.DisplayFor(modelItem => item.Job_Id)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Job_name)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Job_description)
+                        </td>
+                        <td>
+                            @*@Html.DisplayFor(modelItem => item.Job_image)*@
+                            <img src="~/images/@Html.DisplayFor(modelItem => item.Job_image)" class="img-thumbnail" style="width:48px; height:48px" />
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Job_location)
+                        </td>
+                        <td hidden>
+                            @Html.DisplayFor(modelItem => item.Categorie_ID)
+                        </td>
+                        <td>
+                            @Html.ActionLink("Edit", "Edit", new { id = item.Job_Id }) |
+                            @Html.ActionLink("Details", "Details", new { id = item.Job_Id }) |
+                            @Html.ActionLink("Delete", "Delete", new { id = item.Job_Id })
+                        </td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td>
+                        <p style="color: red;">No Jobs founded..</p>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

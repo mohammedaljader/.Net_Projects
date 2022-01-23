@@ -1,0 +1,33 @@
+﻿@model JobCentrum_Website.Models.CategorieViewModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<div style="margin-left: 200px;">
+    <h1>Create New Categorie</h1>
+
+
+    <hr />
+    <div class="row" style="height: 420px">
+        <div class="col-md-4">
+            <form asp-action="Create">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="Categorie_name" class="control-label"></label>
+                    <input asp-for="Categorie_name" class="form-control" />
+                    <span asp-validation-for="Categorie_name" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Categorie_description" class="control-label"></label>
+                    <input asp-for="Categorie_description" class="form-control" />
+                    <span asp-validation-for="Categorie_description" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Create" class="btn btn-primary" />
+                    <a class="btn btn-info" asp-action="Index">Back to List</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

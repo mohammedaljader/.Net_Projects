@@ -1,0 +1,56 @@
+﻿@model JobCentrum_Website.Models.JobViewModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<div style="margin-left: 200px;">
+    <h1>Details Job</h1>
+    <hr />
+    <div>
+        <dl class="row">
+            <dt class="col-sm-2" hidden>
+                @Html.DisplayNameFor(model => model.Job_Id)
+            </dt>
+            <dd class="col-sm-10" hidden>
+                @Html.DisplayFor(model => model.Job_Id)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Job_name)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Job_name)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Job_description)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Job_description)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Job_image)
+            </dt>
+            <dd class="col-sm-10">
+                @*@Html.DisplayFor(model => model.Job_image)*@
+                <img src="~/images/@Html.DisplayFor(model => model.Job_image)" class="img-thumbnail" style="width:48px; height:48px" />
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Job_location)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Job_location)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Categorie_ID)
+            </dt>
+            <dd class="col-sm-10">
+                @ViewBag.categorie.Categorie_name
+            </dd>
+        </dl>
+    </div>
+    <div>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.Job_Id }, new { @class = "btn btn-info" }) |
+        <a class="btn btn-dark" asp-action="Index">Back to List</a>
+    </div>
+
+</div>
