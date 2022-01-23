@@ -1,0 +1,15 @@
+C:\Users\malja\OneDrive\Documenten\S2.Software\Job-website fontysGit\ManyToManyDBOefening\DataLayer\bin\Debug\net5.0\DataModel.dll
+C:\Users\malja\OneDrive\Documenten\S2.Software\Job-website fontysGit\ManyToManyDBOefening\DataLayer\obj\Debug\net5.0\DataLayer.csprojAssemblyReference.cache
+C:\Users\malja\OneDrive\Documenten\S2.Software\Job-website fontysGit\ManyToManyDBOefening\DataLayer\obj\Debug\net5.0\DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\malja\OneDrive\Documenten\S2.Software\Job-website fontysGit\ManyToManyDBOefening\DataLayer\obj\Debug\net5.0\DataLayer.AssemblyInfoInputs.cache
+C:\Users\malja\OneDrive\Documenten\S2.Software\Job-website fontysGit\ManyToManyDBOefening\DataLayer\obj\Debug\net5.0\DataLayer.AssemblyInfo.cs
+C:\Users\malja\OneDrive\Documenten\S2.Software\Job-website fontysGit\ManyToManyDBOefening\DataLayer\bin\Debug\net5.0\DataLayer.deps.json
+C:\Users\malja\OneDrive\Documenten\S2.Software\Job-website fontysGit\ManyToManyDBOefening\DataLayer\bin\Debug\net5.0\DataLayer.dll
+C:\Users\malja\OneDrive\Documenten\S2.Software\Job-website fontysGit\ManyToManyDBOefening\DataLayer\bin\Debug\net5.0\ref\DataLayer.dll
+C:\Users\malja\OneDrive\Documenten\S2.Software\Job-website fontysGit\ManyToManyDBOefening\DataLayer\bin\Debug\net5.0\DataLayer.pdb
+C:\Users\malja\OneDrive\Documenten\S2.Software\Job-website fontysGit\ManyToManyDBOefening\DataLayer\bin\Debug\net5.0\DataModel.pdb
+C:\Users\malja\OneDrive\Documenten\S2.Software\Job-website fontysGit\ManyToManyDBOefening\DataLayer\obj\Debug\net5.0\DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\malja\OneDrive\Documenten\S2.Software\Job-website fontysGit\ManyToManyDBOefening\DataLayer\obj\Debug\net5.0\DataLayer.csproj.CopyComplete
+C:\Users\malja\OneDrive\Documenten\S2.Software\Job-website fontysGit\ManyToManyDBOefening\DataLayer\obj\Debug\net5.0\DataLayer.dll
+C:\Users\malja\OneDrive\Documenten\S2.Software\Job-website fontysGit\ManyToManyDBOefening\DataLayer\obj\Debug\net5.0\ref\DataLayer.dll
+C:\Users\malja\OneDrive\Documenten\S2.Software\Job-website fontysGit\ManyToManyDBOefening\DataLayer\obj\Debug\net5.0\DataLayer.pdb
