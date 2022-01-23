@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\malja\\OneDrive\\Documenten\\S2.Software\\Job-website fontysGit\\JobCentrum_Website\\BLL_interfaces\\BLL_interfaces.csproj",
+      "projectUniqueName": "C:\\Users\\malja\\OneDrive\\Documenten\\semester-2-software-fontys\\JobCentrum_Website\\BLL_interfaces\\BLL_interfaces.csproj",
       "projectName": "BLL_interfaces",
-      "projectPath": "C:\\Users\\malja\\OneDrive\\Documenten\\S2.Software\\Job-website fontysGit\\JobCentrum_Website\\BLL_interfaces\\BLL_interfaces.csproj",
+      "projectPath": "C:\\Users\\malja\\OneDrive\\Documenten\\semester-2-software-fontys\\JobCentrum_Website\\BLL_interfaces\\BLL_interfaces.csproj",
       "packagesPath": "C:\\Users\\malja\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\malja\\OneDrive\\Documenten\\S2.Software\\Job-website fontysGit\\JobCentrum_Website\\BLL_interfaces\\obj\\",
+      "outputPath": "C:\\Users\\malja\\OneDrive\\Documenten\\semester-2-software-fontys\\JobCentrum_Website\\BLL_interfaces\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\malja\\AppData\\Roaming\\NuGet\\NuGet.Config",

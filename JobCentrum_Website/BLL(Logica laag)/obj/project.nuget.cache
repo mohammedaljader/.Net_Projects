@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vOxILH/l4lo6Dee5+n1oSaQ6qmZahJauq28BHDyouvpQ/qN/SLRA48HDLLgA5hq1YfmXxZdiioT2ZERXpNsvgA==",
+  "dgSpecHash": "aCMqtg7qfKMa6rxNm0kyYsXA6KYBQ+6M+yq0uDLBFMcq/WVZK0ifRx2A2IZSuV+9L+OTnV0jcwEiD/ekmA5kXQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\malja\\OneDrive\\Documenten\\S2.Software\\Job-website fontysGit\\JobCentrum_Website\\BLL(Logica laag)\\BLL(Logica laag).csproj",
+  "projectFilePath": "C:\\Users\\malja\\OneDrive\\Documenten\\semester-2-software-fontys\\JobCentrum_Website\\BLL(Logica laag)\\BLL(Logica laag).csproj",
   "expectedPackageFiles": [
     "C:\\Users\\malja\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
     "C:\\Users\\malja\\.nuget\\packages\\google.protobuf\\3.14.0\\google.protobuf.3.14.0.nupkg.sha512",

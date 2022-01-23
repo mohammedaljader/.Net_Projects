@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "erViPjgGN9enBwIfouLIqMLdFFzV4lOdRc1pi1EoswOk1VflKNy5mhUGYSH3VbaTkTIsj3tIYOjqFJGezA/+EQ==",
+  "dgSpecHash": "a54QOJRfEUFQ2i/Wq6jucTOtEW/2ACxxsWKJ42Xun1qwks02brLkiqfYdOby4x15jwo/fYCJ9Q73NgnaH2ostQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\malja\\OneDrive\\Documenten\\S2.Software\\Job-website fontysGit\\JobCentrum_Website\\JobCentrum_Website\\JobCentrum_Website.csproj",
+  "projectFilePath": "C:\\Users\\malja\\OneDrive\\Documenten\\semester-2-software-fontys\\JobCentrum_Website\\JobCentrum_Website\\JobCentrum_Website.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\malja\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
     "C:\\Users\\malja\\.nuget\\packages\\documentformat.openxml\\2.13.0\\documentformat.openxml.2.13.0.nupkg.sha512",

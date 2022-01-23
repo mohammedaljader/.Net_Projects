@@ -949,11 +949,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\malja\\OneDrive\\Documenten\\S2.Software\\Job-website fontysGit\\JobCentrum_Website\\BLL_Factory\\BLL_Factory.csproj",
+      "projectUniqueName": "C:\\Users\\malja\\OneDrive\\Documenten\\semester-2-software-fontys\\JobCentrum_Website\\BLL_Factory\\BLL_Factory.csproj",
       "projectName": "BLL_Factory",
-      "projectPath": "C:\\Users\\malja\\OneDrive\\Documenten\\S2.Software\\Job-website fontysGit\\JobCentrum_Website\\BLL_Factory\\BLL_Factory.csproj",
+      "projectPath": "C:\\Users\\malja\\OneDrive\\Documenten\\semester-2-software-fontys\\JobCentrum_Website\\BLL_Factory\\BLL_Factory.csproj",
       "packagesPath": "C:\\Users\\malja\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\malja\\OneDrive\\Documenten\\S2.Software\\Job-website fontysGit\\JobCentrum_Website\\BLL_Factory\\obj\\",
+      "outputPath": "C:\\Users\\malja\\OneDrive\\Documenten\\semester-2-software-fontys\\JobCentrum_Website\\BLL_Factory\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\malja\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -970,11 +970,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\malja\\OneDrive\\Documenten\\S2.Software\\Job-website fontysGit\\JobCentrum_Website\\BLL(Logica laag)\\BLL(Logica laag).csproj": {
-              "projectPath": "C:\\Users\\malja\\OneDrive\\Documenten\\S2.Software\\Job-website fontysGit\\JobCentrum_Website\\BLL(Logica laag)\\BLL(Logica laag).csproj"
+            "C:\\Users\\malja\\OneDrive\\Documenten\\semester-2-software-fontys\\JobCentrum_Website\\BLL(Logica laag)\\BLL(Logica laag).csproj": {
+              "projectPath": "C:\\Users\\malja\\OneDrive\\Documenten\\semester-2-software-fontys\\JobCentrum_Website\\BLL(Logica laag)\\BLL(Logica laag).csproj"
             },
-            "C:\\Users\\malja\\OneDrive\\Documenten\\S2.Software\\Job-website fontysGit\\JobCentrum_Website\\BLL_interfaces\\BLL_interfaces.csproj": {
-              "projectPath": "C:\\Users\\malja\\OneDrive\\Documenten\\S2.Software\\Job-website fontysGit\\JobCentrum_Website\\BLL_interfaces\\BLL_interfaces.csproj"
+            "C:\\Users\\malja\\OneDrive\\Documenten\\semester-2-software-fontys\\JobCentrum_Website\\BLL_interfaces\\BLL_interfaces.csproj": {
+              "projectPath": "C:\\Users\\malja\\OneDrive\\Documenten\\semester-2-software-fontys\\JobCentrum_Website\\BLL_interfaces\\BLL_interfaces.csproj"
             }
           }
         }

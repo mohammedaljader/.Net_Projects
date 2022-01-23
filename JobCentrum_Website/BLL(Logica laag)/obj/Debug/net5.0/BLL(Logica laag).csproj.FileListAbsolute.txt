@@ -21,3 +21,26 @@ C:\Users\malja\OneDrive\Documenten\S2.Software\Job-website fontysGit\JobCentrum_
 C:\Users\malja\OneDrive\Documenten\S2.Software\Job-website fontysGit\JobCentrum_Website\BLL(Logica laag)\bin\Debug\net5.0\DAL.pdb
 C:\Users\malja\OneDrive\Documenten\S2.Software\Job-website fontysGit\JobCentrum_Website\BLL(Logica laag)\bin\Debug\net5.0\Exceptions.dll
 C:\Users\malja\OneDrive\Documenten\S2.Software\Job-website fontysGit\JobCentrum_Website\BLL(Logica laag)\bin\Debug\net5.0\Exceptions.pdb
+C:\Users\malja\OneDrive\Documenten\semester-2-software-fontys\JobCentrum_Website\BLL(Logica laag)\bin\Debug\net5.0\BLL(Logica laag).deps.json
+C:\Users\malja\OneDrive\Documenten\semester-2-software-fontys\JobCentrum_Website\BLL(Logica laag)\bin\Debug\net5.0\BLL(Logica laag).dll
+C:\Users\malja\OneDrive\Documenten\semester-2-software-fontys\JobCentrum_Website\BLL(Logica laag)\bin\Debug\net5.0\ref\BLL(Logica laag).dll
+C:\Users\malja\OneDrive\Documenten\semester-2-software-fontys\JobCentrum_Website\BLL(Logica laag)\bin\Debug\net5.0\BLL(Logica laag).pdb
+C:\Users\malja\OneDrive\Documenten\semester-2-software-fontys\JobCentrum_Website\BLL(Logica laag)\bin\Debug\net5.0\BLL_interfaces.dll
+C:\Users\malja\OneDrive\Documenten\semester-2-software-fontys\JobCentrum_Website\BLL(Logica laag)\bin\Debug\net5.0\DAL.dll
+C:\Users\malja\OneDrive\Documenten\semester-2-software-fontys\JobCentrum_Website\BLL(Logica laag)\bin\Debug\net5.0\DAL_Factory.dll
+C:\Users\malja\OneDrive\Documenten\semester-2-software-fontys\JobCentrum_Website\BLL(Logica laag)\bin\Debug\net5.0\DAL_interfaces.dll
+C:\Users\malja\OneDrive\Documenten\semester-2-software-fontys\JobCentrum_Website\BLL(Logica laag)\bin\Debug\net5.0\Exceptions.dll
+C:\Users\malja\OneDrive\Documenten\semester-2-software-fontys\JobCentrum_Website\BLL(Logica laag)\bin\Debug\net5.0\BLL_interfaces.pdb
+C:\Users\malja\OneDrive\Documenten\semester-2-software-fontys\JobCentrum_Website\BLL(Logica laag)\bin\Debug\net5.0\DAL_Factory.pdb
+C:\Users\malja\OneDrive\Documenten\semester-2-software-fontys\JobCentrum_Website\BLL(Logica laag)\bin\Debug\net5.0\DAL_interfaces.pdb
+C:\Users\malja\OneDrive\Documenten\semester-2-software-fontys\JobCentrum_Website\BLL(Logica laag)\bin\Debug\net5.0\DAL.pdb
+C:\Users\malja\OneDrive\Documenten\semester-2-software-fontys\JobCentrum_Website\BLL(Logica laag)\bin\Debug\net5.0\Exceptions.pdb
+C:\Users\malja\OneDrive\Documenten\semester-2-software-fontys\JobCentrum_Website\BLL(Logica laag)\obj\Debug\net5.0\BLL(Logica laag).csprojAssemblyReference.cache
+C:\Users\malja\OneDrive\Documenten\semester-2-software-fontys\JobCentrum_Website\BLL(Logica laag)\obj\Debug\net5.0\BLL(Logica laag).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\malja\OneDrive\Documenten\semester-2-software-fontys\JobCentrum_Website\BLL(Logica laag)\obj\Debug\net5.0\BLL(Logica laag).AssemblyInfoInputs.cache
+C:\Users\malja\OneDrive\Documenten\semester-2-software-fontys\JobCentrum_Website\BLL(Logica laag)\obj\Debug\net5.0\BLL(Logica laag).AssemblyInfo.cs
+C:\Users\malja\OneDrive\Documenten\semester-2-software-fontys\JobCentrum_Website\BLL(Logica laag)\obj\Debug\net5.0\BLL(Logica laag).csproj.CoreCompileInputs.cache
+C:\Users\malja\OneDrive\Documenten\semester-2-software-fontys\JobCentrum_Website\BLL(Logica laag)\obj\Debug\net5.0\BLL(Logica laag).csproj.CopyComplete
+C:\Users\malja\OneDrive\Documenten\semester-2-software-fontys\JobCentrum_Website\BLL(Logica laag)\obj\Debug\net5.0\BLL(Logica laag).dll
+C:\Users\malja\OneDrive\Documenten\semester-2-software-fontys\JobCentrum_Website\BLL(Logica laag)\obj\Debug\net5.0\ref\BLL(Logica laag).dll
+C:\Users\malja\OneDrive\Documenten\semester-2-software-fontys\JobCentrum_Website\BLL(Logica laag)\obj\Debug\net5.0\BLL(Logica laag).pdb

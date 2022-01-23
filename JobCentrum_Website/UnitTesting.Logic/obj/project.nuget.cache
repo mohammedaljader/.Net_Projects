@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4DkK/MKoxY1Ad8Mgxzlahu34B3GJn7veBV4EeBbcJ3KhXxixAgfv2EOoxMdqbwnDtnZXYr9yYFPqsoaPZXe9UA==",
+  "dgSpecHash": "Zkb8mOWmDJ9YA8Qar4XDfWEYEdQz/HK3wJ2roH+D2tXK6kkIOg66Cd7nZ4yH06hlwhmnYtnNf2xHMHNh7tl1qQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\malja\\OneDrive\\Documenten\\S2.Software\\Job-website fontysGit\\JobCentrum_Website\\UnitTesting.Logic\\UnitTesting.Logic.csproj",
+  "projectFilePath": "C:\\Users\\malja\\OneDrive\\Documenten\\semester-2-software-fontys\\JobCentrum_Website\\UnitTesting.Logic\\UnitTesting.Logic.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\malja\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
     "C:\\Users\\malja\\.nuget\\packages\\coverlet.collector\\1.3.0\\coverlet.collector.1.3.0.nupkg.sha512",

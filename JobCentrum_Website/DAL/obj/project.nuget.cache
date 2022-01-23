@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rJtFjrdfgbhAuPfxNbfAG7kDMABYyhsjfNkllSgQ2CcQ9nKl28N8hsk0d2nCIeTn4NqbaNNDzIn4bJ/Ot0sr/Q==",
+  "dgSpecHash": "FyseJODl5I+BFPd+oQO6ItMV5qQd+O6WXnzlQH9zQzzUHXH0Lr8s0PMB5fV2TKqd8OdUuoEOJG/zH9dzSJHQJA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\malja\\OneDrive\\Documenten\\S2.Software\\Job-website fontysGit\\JobCentrum_Website\\DAL\\DAL.csproj",
+  "projectFilePath": "C:\\Users\\malja\\OneDrive\\Documenten\\semester-2-software-fontys\\JobCentrum_Website\\DAL\\DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\malja\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
     "C:\\Users\\malja\\.nuget\\packages\\google.protobuf\\3.14.0\\google.protobuf.3.14.0.nupkg.sha512",

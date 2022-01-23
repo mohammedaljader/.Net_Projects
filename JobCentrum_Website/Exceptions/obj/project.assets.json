@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\malja\\OneDrive\\Documenten\\S2.Software\\Job-website fontysGit\\JobCentrum_Website\\Exceptions\\Exceptions.csproj",
+      "projectUniqueName": "C:\\Users\\malja\\OneDrive\\Documenten\\semester-2-software-fontys\\JobCentrum_Website\\Exceptions\\Exceptions.csproj",
       "projectName": "Exceptions",
-      "projectPath": "C:\\Users\\malja\\OneDrive\\Documenten\\S2.Software\\Job-website fontysGit\\JobCentrum_Website\\Exceptions\\Exceptions.csproj",
+      "projectPath": "C:\\Users\\malja\\OneDrive\\Documenten\\semester-2-software-fontys\\JobCentrum_Website\\Exceptions\\Exceptions.csproj",
       "packagesPath": "C:\\Users\\malja\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\malja\\OneDrive\\Documenten\\S2.Software\\Job-website fontysGit\\JobCentrum_Website\\Exceptions\\obj\\",
+      "outputPath": "C:\\Users\\malja\\OneDrive\\Documenten\\semester-2-software-fontys\\JobCentrum_Website\\Exceptions\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\malja\\AppData\\Roaming\\NuGet\\NuGet.Config",

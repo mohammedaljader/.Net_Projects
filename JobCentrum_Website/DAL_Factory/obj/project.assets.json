@@ -895,11 +895,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\malja\\OneDrive\\Documenten\\S2.Software\\Job-website fontysGit\\JobCentrum_Website\\DAL_Factory\\DAL_Factory.csproj",
+      "projectUniqueName": "C:\\Users\\malja\\OneDrive\\Documenten\\semester-2-software-fontys\\JobCentrum_Website\\DAL_Factory\\DAL_Factory.csproj",
       "projectName": "DAL_Factory",
-      "projectPath": "C:\\Users\\malja\\OneDrive\\Documenten\\S2.Software\\Job-website fontysGit\\JobCentrum_Website\\DAL_Factory\\DAL_Factory.csproj",
+      "projectPath": "C:\\Users\\malja\\OneDrive\\Documenten\\semester-2-software-fontys\\JobCentrum_Website\\DAL_Factory\\DAL_Factory.csproj",
       "packagesPath": "C:\\Users\\malja\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\malja\\OneDrive\\Documenten\\S2.Software\\Job-website fontysGit\\JobCentrum_Website\\DAL_Factory\\obj\\",
+      "outputPath": "C:\\Users\\malja\\OneDrive\\Documenten\\semester-2-software-fontys\\JobCentrum_Website\\DAL_Factory\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\malja\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -916,11 +916,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\malja\\OneDrive\\Documenten\\S2.Software\\Job-website fontysGit\\JobCentrum_Website\\DAL\\DAL.csproj": {
-              "projectPath": "C:\\Users\\malja\\OneDrive\\Documenten\\S2.Software\\Job-website fontysGit\\JobCentrum_Website\\DAL\\DAL.csproj"
+            "C:\\Users\\malja\\OneDrive\\Documenten\\semester-2-software-fontys\\JobCentrum_Website\\DAL\\DAL.csproj": {
+              "projectPath": "C:\\Users\\malja\\OneDrive\\Documenten\\semester-2-software-fontys\\JobCentrum_Website\\DAL\\DAL.csproj"
             },
-            "C:\\Users\\malja\\OneDrive\\Documenten\\S2.Software\\Job-website fontysGit\\JobCentrum_Website\\DAL_interfaces\\DAL_interfaces.csproj": {
-              "projectPath": "C:\\Users\\malja\\OneDrive\\Documenten\\S2.Software\\Job-website fontysGit\\JobCentrum_Website\\DAL_interfaces\\DAL_interfaces.csproj"
+            "C:\\Users\\malja\\OneDrive\\Documenten\\semester-2-software-fontys\\JobCentrum_Website\\DAL_interfaces\\DAL_interfaces.csproj": {
+              "projectPath": "C:\\Users\\malja\\OneDrive\\Documenten\\semester-2-software-fontys\\JobCentrum_Website\\DAL_interfaces\\DAL_interfaces.csproj"
             }
           }
         }
